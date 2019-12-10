@@ -3,12 +3,12 @@ var router = express.Router({
     mergeParams: true
 });
 
-/* GET home page. */
-router.get("/", function(req, res) {
-  res.render("index");
-});
+// Controllers
+var index_controller = require('../controllers/index');
 
-router.get("/1", function(req, res) {
-  res.render("index1");
-});
+/* GET home page. */
+router.get('/', index_controller.homepage_get);
+
+
+
 module.exports = router;

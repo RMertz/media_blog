@@ -15,3 +15,5 @@
 - commit changes to a new branch
 - create a pull request
 - done
+
+### Used the above boilerplate to start building a personal blog for all of my favorite media, warning opinions about things that aren't important may be found on this site.
