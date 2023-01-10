@@ -8,10 +8,10 @@
   "dependencies": {
     "debug": "^2.2.0",
     "ejs": "~2.3.3",
-    "express": "~4.13.1",
+    "express": "~4.18.2",
     "morgan": "^1.6.1",
     "nodemon": "^1.11.0",
-    "serve-favicon": "~2.3.0"
+    "serve-favicon": "~2.5.0"
   },
   "description": "[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/meat147/Point-of-Sale/blob/master/LICENSE)",
   "main": "app.js",
